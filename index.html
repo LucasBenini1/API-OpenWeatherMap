@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>API WeatherMap</title>
+</head>
+<body>
+    <h1 id="title">Consumo da API <span id="titleSpan">OpenWeatherMap</span></h1>
+
+
+    <div id="container">
+
+        <div id="selection">
+
+            <h3>Selecione a localização:</h3>
+
+            <input type="text" id="city" placeholder="Digite a cidade">
+            <button id="botao">Verificar</button>
+        </div>
+
+        <div id="painel">
+            <h1>Informações</h1>
+            <h3><i id="cidade"></i></h3>
+            <p id="temp"></p>
+            <p id="min"></p>
+            <p id="max"></p>
+            <p id="sens"></p>
+            <p id="visi"></p>
+            <p id="wind"></p>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
